@@ -1,0 +1,36 @@
+body{
+font-family: sans-serif;
+
+}
+h1{
+	text-align: center;
+	color: forestgreen;
+	margin:30px 0 50px;
+}
+.portfolio{
+	background-color: tomato;
+	
+}
+.portfolio img{
+	width: 230;
+	padding:5px;
+	filter: grayscale(50%);
+	transition: 1s;
+}
+.portfolio img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.jumbotron{
+	
+}
+.jumbotron img{
+	width: 230;
+	padding:5px;
+	filter: grayscale(50%);
+	transition: 1s;
+}
+.jumbotron img:hover{
+	filter: grayscale(0);
+	transform: scale(1.);
+}
